@@ -2,10 +2,10 @@ version: "3.9"
 services:
   project1:
     build:
-      context: ./dir
+      context: .
       dockerfile: Dockerfile
     command: "tail -f /dev/null"
     volumes:
-      - ./src:/home/node/material-ui/project1
+      - ./arcdevelopment:/home/node/material-ui/project1
     ports:
       - "3000:3000"

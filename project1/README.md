@@ -20,3 +20,6 @@ press cntr + c to quit
     >> npm install @material-ui/core
     Add robofont
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+### Sub- module
+>> git submodule add git@github.com:spykins/material-project1.git arcdevelopment
