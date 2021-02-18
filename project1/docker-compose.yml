@@ -6,6 +6,6 @@ services:
       dockerfile: Dockerfile
     command: "tail -f /dev/null"
     volumes:
-      - ./src:/home/node/material-ui/project-one
+      - ./src:/home/node/material-ui/project1
     ports:
       - "3000:3000"
