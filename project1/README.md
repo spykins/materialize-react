@@ -17,3 +17,6 @@ press cntr + c to quit
 
     >> npm install --save react-router-dom
     https://material-ui.com/getting-started/installation/   
+    >> npm install @material-ui/core
+    Add robofont
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
