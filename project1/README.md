@@ -1,10 +1,29 @@
 # Project 1
 
+# To Run The app
+
+### Set Up
+    >> cd to project1
+    >> docker-compose build
+    >> docker-compose up -d 
+    >> docker-compose exec project1 bash
+
+### in Container
+    >> cd project1/
+    >> npm install
+    >> npm start
+visit http://localhost:3000 
+
+#### done!
+
+# ***************************************************
+
+# Initial Project Set Up
 ## Set Up
->> cd to project1
->> docker-compose build
->> docker-compose up -d 
->> docker-compose exec project1 bash
+    >> cd to project1
+    >> docker-compose build
+    >> docker-compose up -d 
+    >> docker-compose exec project1 bash
 
 ### in Container
     >> cd project1/
